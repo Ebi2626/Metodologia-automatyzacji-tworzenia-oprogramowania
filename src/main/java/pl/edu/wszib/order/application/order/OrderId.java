@@ -8,6 +8,7 @@ import java.util.UUID;
 @ToString
 @AllArgsConstructor
 public class OrderId {
+
     private final String id;
 
     public static OrderId create() {
